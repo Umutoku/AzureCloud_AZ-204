@@ -1,0 +1,118 @@
+[
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/2C6A748E2723F39B",
+    "operationId": "2C6A748E2723F39B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:50.7288683Z",
+      "duration": "PT31.5562867S",
+      "trackingId": "6f6934b6-ec3b-4004-83f8-b330c885a5d4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/ftp",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "azurevsc/ftp"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/8988F72C6338E47A",
+    "operationId": "8988F72C6338E47A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:50.3597945Z",
+      "duration": "PT0.6824777S",
+      "trackingId": "619b2a8c-d931-4d0e-bb75-da6e573a49bc",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/scm",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "azurevsc/scm"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/49D9672068093EF5",
+    "operationId": "49D9672068093EF5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:49.652195Z",
+      "duration": "PT30.4796134S",
+      "trackingId": "91124f20-bbbf-40f1-8856-31dca1444f61",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "azurevsc"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/81BE6A2A41FC6448",
+    "operationId": "81BE6A2A41FC6448",
+    "properties": {
+      "provisioningOperation": "Action",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:19.1492576Z",
+      "duration": "PT26.4386716S",
+      "trackingId": "5bffaa0d-b882-4012-85a2-8ba9598465b9",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Storage/storageAccounts/learn43a9c808753c40b1e9",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "learn43a9c808753c40b1e9",
+        "actionName": "listKeys",
+        "apiVersion": "2019-06-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/BC0669D78A5861EE",
+    "operationId": "BC0669D78A5861EE",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:18.8772518Z",
+      "duration": "PT26.1666658S",
+      "trackingId": "bf3fec32-1b2d-4edd-8582-06baa7465d1f",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Storage/storageAccounts/learn43a9c808753c40b1e9",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "learn43a9c808753c40b1e9"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/34E8C265E56F5B24",
+    "operationId": "34E8C265E56F5B24",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:44:58.0323152Z",
+      "duration": "PT5.3217292S",
+      "trackingId": "c2afe7f0-4a80-4ac6-8ba5-6831ac6534b2",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/serverfarms/ASP-learn43a9c808753c401587f60bcbcc-a641",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-learn43a9c808753c401587f60bcbcc-a641"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6/operations/08584917085964737230",
+    "operationId": "08584917085964737230",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-03-08T11:45:50.8678727Z",
+      "duration": "PT0.114227S",
+      "trackingId": "d2483278-ff4a-48c4-bfa2-a7f849de5fb4",
+      "statusCode": "OK"
+    }
+  }
+]

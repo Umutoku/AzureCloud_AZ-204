@@ -1,0 +1,187 @@
+{
+  "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6",
+  "name": "Microsoft.Web-FunctionApp-Portal-2ea3f47d-a6e6",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourcegroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc",
+    "marketplaceItemId": "Microsoft.FunctionApp",
+    "provisioningHash": "customize-post-provisioning-steps-functionapp-deployment"
+  },
+  "properties": {
+    "templateHash": "8324530977542924012",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "a00abc48-9eec-4214-a081-39ebe163b749"
+      },
+      "name": {
+        "type": "String",
+        "value": "azurevsc"
+      },
+      "location": {
+        "type": "String",
+        "value": "Germany West Central"
+      },
+      "use32BitWorkerProcess": {
+        "type": "Bool",
+        "value": false
+      },
+      "ftpsState": {
+        "type": "String",
+        "value": "FtpsOnly"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "learn43a9c808753c40b1e9"
+      },
+      "netFrameworkVersion": {
+        "type": "String",
+        "value": "v8.0"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Dynamic"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "Y1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-learn43a9c808753c401587f60bcbcc-a641"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "learn-43a9c808-753c-4015-87f6-0bcbccf6be8a"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-03-08T11:45:50.8825985Z",
+    "duration": "PT1M0.3861956S",
+    "correlationId": "f1c81b7b-a537-463c-a5cb-225b7b1f605b",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "germanywestcentral"
+            ]
+          },
+          {
+            "resourceType": "sites/basicPublishingCredentialsPolicies",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "germanywestcentral"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "germanywestcentral"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/serverfarms/ASP-learn43a9c808753c401587f60bcbcc-a641",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-learn43a9c808753c401587f60bcbcc-a641"
+          },
+          {
+            "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Storage/storageAccounts/learn43a9c808753c40b1e9",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "learn43a9c808753c40b1e9"
+          },
+          {
+            "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Storage/storageAccounts/learn43a9c808753c40b1e9",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "learn43a9c808753c40b1e9",
+            "actionName": "listKeys",
+            "apiVersion": "2019-06-01"
+          }
+        ],
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "azurevsc"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/Sites/azurevsc",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "azurevsc"
+          }
+        ],
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/scm",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "azurevsc/scm"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/Sites/azurevsc",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "azurevsc"
+          }
+        ],
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/ftp",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "azurevsc/ftp"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Storage/storageAccounts/learn43a9c808753c40b1e9"
+      },
+      {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/serverfarms/ASP-learn43a9c808753c401587f60bcbcc-a641"
+      },
+      {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc"
+      },
+      {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/ftp"
+      },
+      {
+        "id": "/subscriptions/a00abc48-9eec-4214-a081-39ebe163b749/resourceGroups/learn-43a9c808-753c-4015-87f6-0bcbccf6be8a/providers/Microsoft.Web/sites/azurevsc/basicPublishingCredentialsPolicies/scm"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

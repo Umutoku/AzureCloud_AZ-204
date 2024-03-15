@@ -1,0 +1,14 @@
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\bin\Debug\net8.0\CoverletSourceRootsMapping_WatchFunctionsTests
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.csproj.AssemblyReference.cache
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.AssemblyInfoInputs.cache
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.AssemblyInfo.cs
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.csproj.CoreCompileInputs.cache
+C:\Users\umuto\source\repos\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.sourcelink.json
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\bin\Debug\net8.0\CoverletSourceRootsMapping_WatchFunctionsTests
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.csproj.AssemblyReference.cache
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.AssemblyInfoInputs.cache
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.AssemblyInfo.cs
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.csproj.CoreCompileInputs.cache
+c:\Users\umuto\source\repos\Azure AZ-204\WatchPortalFunction\WatchFunctionsTests\obj\Debug\net8.0\WatchFunctionsTests.sourcelink.json
